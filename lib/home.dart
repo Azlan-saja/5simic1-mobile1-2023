@@ -8,7 +8,7 @@ class MyDashboard extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Dashboard')),
       body: const Center(
-        child: Text('Hello Word!'),
+        child: Text('Hello Word 5SIMIC1'),
       ),
     );
   }
