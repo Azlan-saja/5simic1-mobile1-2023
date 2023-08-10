@@ -1,5 +1,6 @@
 import 'package:aplikasi_5simic1/home.dart';
 import 'package:flutter/material.dart';
+import 'package:aplikasi_5simic1/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Aplikasi 5SIMIC1",
       theme: ThemeData(primarySwatch: Colors.purple),
-      home: const MyDashboard(),
+      home: const MyLogin(),
     );
   }
 }
