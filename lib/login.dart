@@ -91,7 +91,10 @@ class _MyLoginState extends State<MyLogin> {
                   );
                 } else {
                   // Login Gagal
-                  const pesan = SnackBar(content: Text('Login Gagal.'));
+                  const pesan = SnackBar(
+                    content: Text('Login Gagal.\nEmail dan Password Salah.'),
+                    backgroundColor: Colors.red,
+                  );
                   ScaffoldMessenger.of(context).showSnackBar(pesan);
                 }
               },
