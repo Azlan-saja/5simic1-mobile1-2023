@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 
 // a) Ubah menjadi StatefulWidget
@@ -11,7 +9,8 @@ class MyLuas extends StatefulWidget {
 }
 
 class _MyLuasState extends State<MyLuas> {
-  // b) Buat variabel baru menggunakan TextEditingController()
+  // b) Buat variabel baru
+  //    menggunakan TextEditingController()
   final vPanjang = TextEditingController();
   final vLebar = TextEditingController();
   final vHasil = TextEditingController();
