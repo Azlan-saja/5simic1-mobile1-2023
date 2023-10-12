@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Aplikasi 5SIMIC1",
       theme: ThemeData(primarySwatch: Colors.purple),
-      home: const MyVolume(),
+      home: const MyDashboard(),
     );
   }
 }

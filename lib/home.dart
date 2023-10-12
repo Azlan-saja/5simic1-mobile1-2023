@@ -10,6 +10,35 @@ class MyDashboard extends StatelessWidget {
       body: const Center(
         child: Text('Hello Word 5SIMIC1'),
       ),
+      bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.black,
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: "Home",
+            backgroundColor: Colors.purple,
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.volume_down),
+            label: "Volume",
+            backgroundColor: Colors.purple,
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.calculate),
+            label: "Luas",
+            backgroundColor: Colors.purple,
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.person),
+            label: "Akun",
+            backgroundColor: Colors.purple,
+          ),
+        ],
+        selectedItemColor: Colors.amber[300],
+        currentIndex: 0,
+        onTap: null,
+        showUnselectedLabels: true,
+      ),
     );
   }
 }
