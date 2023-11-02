@@ -1,4 +1,4 @@
-import 'package:aplikasi_5simic1/home.dart';
+import 'package:aplikasi_5simic1/dashboard.dart';
 import 'package:aplikasi_5simic1/luas.dart';
 import 'package:aplikasi_5simic1/volume.dart';
 import 'package:flutter/material.dart';
