@@ -24,7 +24,7 @@ class _MyDashboardState extends State<MyDashboard> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Dashboard')),
+      // appBar: AppBar(title: const Text('Dashboard')),
       body: pilihanLayer.elementAt(indexLayerKe),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.black,

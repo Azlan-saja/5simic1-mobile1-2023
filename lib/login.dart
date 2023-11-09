@@ -15,6 +15,13 @@ class _MyLoginState extends State<MyLogin> {
   final vPassword = TextEditingController();
 
   @override
+  void initState() {
+    super.initState();
+    vEmail.text = 'azlansaja19@gmail.com';
+    vPassword.text = 'password';
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
@@ -80,7 +87,8 @@ class _MyLoginState extends State<MyLogin> {
             ElevatedButton(
               onPressed: () {
                 // d) Kondisikan state/data vEmail dan vPassword
-                if (vEmail.text == 'a@g.c' && vPassword.text == '123') {
+                if (vEmail.text == 'azlansaja19@gmail.com' &&
+                    vPassword.text == 'password') {
                   // Login Berhasil
                   // Navigasi
                   Navigator.pushReplacement(
